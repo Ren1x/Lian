@@ -1,0 +1,109 @@
+body {
+    background-color: #fafafa;
+    margin: 0;
+}
+
+header {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    height: 90px;
+    background-color: #ffffff;
+    margin: 0;
+    margin-top: -10px;
+    box-shadow: 0 3px 5px 1px rgba(0,0,0,0.25);
+    position: relative;
+    top: 10px;
+}
+
+.top-nav {
+    display: -webkit-flex;
+    display: flex;
+    width: 1140px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.top-nav ul {
+    display: -webkit-flex;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    font-family: Roboto, Arial, sans-serif;
+    text-transform: uppercase;
+    color: #6d6666;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 1.2em;
+}
+
+.slider {
+    display: -webkit-flex;
+    display: flex;
+    height: 650px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #d4d4d4 url("img/sliderCut3.png") no-repeat right/cover;
+}
+
+.slider h1 {
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-size: 48px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    padding: 0 1em;
+    margin: 0;
+    letter-spacing: 0.1em;
+}
+
+.slider p {
+    color: black;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    padding-top: 0.5em;
+    letter-spacing: 0.5em;
+}
+
+.slider div {
+    background-color: black;
+}
+
+.gal {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+}
+
+.gal ul {
+    display: -webkit-flex;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.gal a {
+    text-decoration: none;
+    display: block;
+    font-family: Roboto, Arial, sans-serif;
+    text-transform: uppercase;
+    color: #6d6666;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.current {
+    color: yellow;
+}
